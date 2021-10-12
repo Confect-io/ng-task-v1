@@ -1,10 +1,16 @@
 <div class="p-8 flex flex-col h-screen items-center justify-center">
   <div class="flex space-x-8">
-    <button class="p-4 rounded-md font-bold text-white bg-green-600">
+    <button
+      class="p-4 rounded-md font-bold text-white bg-green-600"
+      (click)="successButton()"
+    >
       Show success
     </button>
 
-    <button class="p-4 rounded-md font-bold text-white bg-red-600">
+    <button
+      class="p-4 rounded-md font-bold text-white bg-red-600"
+      (click)="failureButton()"
+    >
       Show failure
     </button>
 
